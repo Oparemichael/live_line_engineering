@@ -1,7 +1,7 @@
 const services = [
   {
     title: "Solar System Installation",
-    img: "/images/solar-panel.png",
+    img: "/images/Solar-panel.png",
     desc: "Install solar systems to reduce energy costs and environmental impact."
   },
   {
@@ -22,7 +22,7 @@ const Services = () => {
     <section className="p-8">
       <h3 className="text-2xl font-bold mb-4">Our Services</h3>
       <p className="mb-6 text-gray-600">Comprehensive Solutions for Your Needs</p>
-      <div className="grid md:grid-cols-3 gap-6 rounded-2xl">
+      <div className="grid md:grid-cols-3 gap-6 m-3 p-2 rounded-2xl">
         {services.map((service, index) => (
           <div key={index} className="bg-white shadow rounded overflow-hidden">
             <img src={service.img} alt={service.title} className="w-full h-40 object-cover rounded-2xl" />
