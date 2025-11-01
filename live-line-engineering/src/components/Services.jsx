@@ -5,20 +5,21 @@ import smartImg from "../images/smart-home.png";
 const services = [
   {
     title: "Solar System Installation",
-    img: solarImg,
+    img: "/images/solar-panel.png",
     desc: "Install solar systems to reduce energy costs and environmental impact."
   },
   {
     title: "Electric Fence & Gate Automation",
-    img: fenceImg,
+    img: "/images/electric-fence.png",
     desc: "Secure your property with advanced electric fencing and gate automation."
   },
   {
     title: "Smart Home Solutions",
-    img: smartImg,
+    img: "/images/smart-home.png",
     desc: "Integrate lighting, security, and automation for a smarter living experience."
   }
 ];
+
 
 const Services = () => {
   return (

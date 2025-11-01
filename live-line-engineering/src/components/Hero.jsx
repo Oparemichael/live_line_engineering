@@ -1,4 +1,4 @@
-import solarHome from "../images/solarHome.jpg";
+import solarHome from "/images/solarHome.jpg";
 
 
 const Hero = () => {
