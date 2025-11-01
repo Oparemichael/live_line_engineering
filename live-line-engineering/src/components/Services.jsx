@@ -1,7 +1,3 @@
-import solarImg from "../images/solar-panel.png";
-import fenceImg from "../images/electric-fence.png";
-import smartImg from "../images/smart-home.png";
-
 const services = [
   {
     title: "Solar System Installation",
