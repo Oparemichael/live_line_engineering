@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import solarImg from "../images/solar-panel.png";
 import fenceImg from "../images/electric-fence.png";
 import smartImg from "../images/smart-home.png";
@@ -38,21 +37,6 @@ const Services = () => {
         ))}
       </div>
     </section>
-=======
-const Services = () => {
-  return (
-    <div>
-      <h2>Our Services</h2>
-      <p>We offer a range of services to support your needs, including:</p>
-      <ul>
-        <li>🛠️ Technical Support & Troubleshooting</li>
-        <li>🖨️ Managed Print Services (MPS)</li>
-        <li>🌐 Network Setup & Optimization</li>
-        <li>📦 Product Deployment & Configuration</li>
-        <li>🎯 Workflow Consulting & Automation</li>
-      </ul>
-    </div>
->>>>>>> f8da825512105396446a3c02310cc53b50606de4
   );
 };
 
