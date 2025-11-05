@@ -10,10 +10,13 @@ const About = () => {
       </div>
       </section>
       <section className="text-center mb-12 mt-10">
-        <p className="text-lg">
-          Live Line Engineering is dedicated to delivering optimal solar energy
-          systems, innovative technologies, and efficient solutions. Our
-          commitment to quality and customer satisfaction sets us apart.
+        <p className="text-lg max-w-5xl mx-auto text-justify">
+        Live Line Engineering is a Ghanaian-based engineering and construction company
+        dedicated to powering progress through innovative solutions in electrical systems, epoxy
+        works, building construction, and planning. We blend creativity with technical expertise to
+        deliver safe, reliable, and aesthetically appealing projects that stand the test of time. At
+        Live Line, we believe every project deserves life — and that’s exactly what we bring:
+        power, precision, and perfection.
         </p>
       </section>
     <div className="px-6 py-12 max-w-5xl mx-auto text-gray-800">
@@ -72,12 +75,12 @@ const About = () => {
 
       {/* History */}
       <section className="mb-12">
-        <h2 className="text-2xl font-semibold text-blue-800 mb-4">Company History</h2>
+        <h2 className="text-2xl font-semibold text-blue-800 mb-4">Founder & CEO</h2>
         <p>
-          Founded in 2003, Live Line Engineering has grown from a small startup
-          to a leading provider of integrated solutions. Our journey has been
-          marked by continuous innovation, customer-centric approaches, and a
-          dedication to excellence.
+        Erasmus Darko — Founder of Live Line Engineering. Erasmus is an investor and electrical
+        engineering student driven by creativity, innovation, and excellence. His vision is to merge
+        modern electrical solutions with construction artistry — creating spaces that live and
+        inspire
         </p>
       </section>
 

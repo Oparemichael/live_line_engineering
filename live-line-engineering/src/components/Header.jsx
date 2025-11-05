@@ -8,7 +8,7 @@ const Header = () => {
   const toggleMenu = () => setIsOpen(!isOpen);
 
   return (
-    <header className="p-4 flex justify-center mt-3">
+    <header className="fixed top-0 left-0 w-full z-50 p-4 flex justify-center">
       <nav className="bg-blue-900 text-white px-6 py-3 rounded-2xl shadow-lg m-5 w-full flex justify-between items-center">
         {/* Logo / Brand */}
         <div className="text-lg font-bold">Live Line Engineering</div>
