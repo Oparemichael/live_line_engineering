@@ -1,20 +1,22 @@
 import React from "react";
-import Header from "../components/Header";
+import logo from "/images/logo.jpg";
 const About = () => {
   return (
-    <div className="px-6 py-12 max-w-5xl mx-auto text-gray-800">
+    <div className="px-6 py-6 mx-auto text-gray-800">
       {/* Hero Section */}
-      <section className="text-center mb-12">
-        <h1 className="text-4xl font-bold text-blue-900 mb-4">
-          Powering Your Future with Innovative Solutions
-        </h1>
+      <section className="relative h-[70vh] w-full">
+      <img src={logo} alt="Solar Home" className="w-full h-full object-cover  rounded-2xl" />
+      <div className="absolute inset-0 bg-black bg-opacity-40 flex items-center justify-center">
+      </div>
+      </section>
+      <section className="text-center mb-12 mt-10">
         <p className="text-lg">
           Live Line Engineering is dedicated to delivering optimal solar energy
           systems, innovative technologies, and efficient solutions. Our
           commitment to quality and customer satisfaction sets us apart.
         </p>
       </section>
-
+    <div className="px-6 py-12 max-w-5xl mx-auto text-gray-800">
       {/* Mission & Vision */}
       <section className="grid md:grid-cols-2 gap-8 mb-12">
         <div className="bg-blue-50 p-6 rounded-lg shadow">
@@ -93,6 +95,7 @@ const About = () => {
           and commitment to excellence.
         </p>
       </section>
+    </div>
     </div>
   );
 };
