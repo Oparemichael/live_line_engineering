@@ -6,12 +6,13 @@ import About from "./pages/About";
 import Contact from "./pages/Contact";
 import ServicesPage from "./pages/ServicesPage";
 import NotFound from "./pages/NotFound";
-
+import ScrollToTop from "./components/ScrollToTop";
 function App() {
   return (
     <div className="flex flex-col min-h-screen">
       {/* Header always visible */}
       <Header />
+      <ScrollToTop />
 
       {/* Main content area */}
       <main className="flex-grow">
