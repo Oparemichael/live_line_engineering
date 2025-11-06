@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const CallToAction = () => {
   return (
@@ -11,12 +12,13 @@ const CallToAction = () => {
           Contact us today for a free consultation and discover how Live Line
           Engineering can transform your home or business.
         </p>
-        <a
-          href="/contact"
+        <Link
+          to="/contact"
           className="inline-block bg-blue-900 text-white px-6 py-3 rounded-lg shadow-lg hover:bg-blue-800 transition"
+          aria-label="Navigate to contact page for free consultation"
         >
           Get a Free Consultation
-        </a>
+        </Link>
       </div>
     </section>
   );
